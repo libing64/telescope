@@ -1,7 +1,7 @@
 // Galilean Eyepiece Cell (目镜座)
-// 用于固定 20mm 凹透镜
+// 用于固定 30mm 凹透镜
 
-lens_dia = 20.5;
+lens_dia = 30.5;
 lens_thickness = 3;
 tube_od = 51.5; // 匹配滑动管外径
 tube_id = 47.5; // 匹配滑动管内径
@@ -19,7 +19,7 @@ module eyepiece_cell() {
         
         // 通光孔 (人眼观察孔)
         translate([0, 0, -1])
-        cylinder(d=16, h=20 + insert_length + 2, $fn=100);
+        cylinder(d=24, h=20 + insert_length + 2, $fn=100);
         
         // 放置目镜的凹槽
         translate([0, 0, 8 - lens_thickness])

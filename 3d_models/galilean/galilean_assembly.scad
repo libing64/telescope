@@ -31,7 +31,7 @@ translate([0, 0, -50])
 rotate([180, 0, 0])
 eyepiece_cell();
 
-// 采购配件: 目镜 (20mm 凹透镜)
+// 采购配件: 目镜 (30mm 凹透镜)
 color("LightCyan", 0.7)
 translate([0, 0, -50 - 8 + 3/2])
-cylinder(d=20, h=3, center=true, $fn=64);
+cylinder(d=30, h=3, center=true, $fn=64);
