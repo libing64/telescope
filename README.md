@@ -5,3 +5,4 @@
 
 - [折射式天文望远镜设计指南](design.md)
 - [牛顿反射式天文望远镜设计与3D打印模型](newtonian_design.md) (114mm口径方案)
+![alt text](images/image.png)
